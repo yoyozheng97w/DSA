@@ -1,10 +1,22 @@
 """
 用 List 實作 Stack
 
-Time Complexity:
-    push: O(1)
-    pop: O(1)
-    peek: O(1)
+Operations:
+    isEmpty: 
+        Checks if the stack is empty.
+        O(1)
+    Push: 
+        Adds a new element on the stack.
+        O(1)
+    Pop: 
+        Removes and returns the top element from the stack.
+        O(1)
+    Peek: 
+        Returns the top (last) element on the stack.
+        O(1)
+    Size: 
+        Finds the number of elements in the stack.
+        O(n)
 """
 class Stack:
     def __init__(self):
